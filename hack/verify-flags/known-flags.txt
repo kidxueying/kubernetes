@@ -59,7 +59,6 @@ cert-dir
 certificate-authority
 cgroup-driver
 cgroup-root
-cgroups-per-qos
 chaos-chance
 clean-start
 cleanup
@@ -74,6 +73,7 @@ clientset-path
 cloud-config
 cloud-provider
 cluster-cidr
+cluster-context
 cluster-dns
 cluster-domain
 cluster-ip
@@ -92,6 +92,8 @@ concurrent-replicaset-syncs
 concurrent-resource-quota-syncs
 concurrent-serviceaccount-token-syncs
 concurrent-service-syncs
+config-map
+config-map-namespace
 config-sync-period
 configure-cloud-routes
 conntrack-max
@@ -106,6 +108,7 @@ container-port
 container-runtime
 container-runtime-endpoint
 contain-pod-resources
+contention-profiling
 controller-start-interval
 cors-allowed-origins
 cpu-cfs-quota
@@ -189,6 +192,7 @@ executor-suicide-timeout
 exit-on-lock-contention
 experimental-allowed-unsafe-sysctls
 experimental-bootstrap-kubeconfig
+experimental-cgroups-per-qos
 experimental-keystone-url
 experimental-keystone-ca-file
 experimental-mounter-path
@@ -317,6 +321,7 @@ kubelet-client-certificate
 kubelet-client-key
 kubelet-docker-endpoint
 kubelet-enable-debugging-handlers
+kubelet-flags
 kubelet-host-network-sources
 kubelet-https
 kubelet-kubeconfig
@@ -506,6 +511,7 @@ schema-cache-dir
 scopes
 seccomp-profile-root
 secondary-node-eviction-rate
+secret-name
 secure-port
 serialize-image-pulls
 server-start-timeout
@@ -594,6 +600,7 @@ watch-only
 whitelist-override-label
 windows-line-endings
 www-prefix
+zone-id
 zone-name
 garbage-collector-enabled
 viper-config
